@@ -1,0 +1,18 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+  ],
+  "editor.formatOnSave": true,
+  "eslint.format.enable": false,
+  "editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": false,
+    // For TSLint
+    "source.fixAll.tslint": false,
+    // For Stylelint
+    "source.fixAll.stylelint": false,
+    "source.fixAll.prettier": false
+  },
+}
